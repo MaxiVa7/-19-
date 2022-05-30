@@ -1,0 +1,33 @@
+body {
+	background-color: aquamarine;
+	background-size: cover;
+}
+.container {
+  background-color: #464646;
+  display: flex;
+  width: 490px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 8px 5px;
+  margin: auto;
+
+}
+.block1{
+  display: inline-block;
+  width: 150px;
+	height: 150px;
+	background-color: #272727;
+	margin: 6px 4px;
+}
+
+p{
+  display: block; 
+	width: 100px;
+	height: 30px;
+	color: white;
+	vertical-align: middle;
+	text-align:center;
+	position: relative;
+	top: 33%;
+	left: 16%;
+}
